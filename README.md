@@ -255,12 +255,15 @@ Melalui hasil yang sudah dibuat dari mulai pembuatan model hingga membantuk metr
   Goals : Mesin dengan kualitas baik dan buruk bisa dilihat dari faktor-faktor yang sudah tersedia.
 
   ![describe-dataset](https://raw.githubusercontent.com/Abito21/Project_Predictive_Analytics_Machine_Maintenace/main/pictures/describe-dataset.png)
+
   *Figure 2 : Deskripsi dataset yang digunakan untuk analisis prediktif*
 
   ![distribution-of-target](https://raw.githubusercontent.com/Abito21/Project_Predictive_Analytics_Machine_Maintenace/main/pictures/distribution-of-target.png)
+
   *Figure 3: Distribusi variabel target dalam dataset.*
 
   ![Failure-Type](https://raw.githubusercontent.com/Abito21/Project_Predictive_Analytics_Machine_Maintenace/main/pictures/Failure-Type.png)
+
   *Figure 4: Tipe-tipe kegagalan yang ditemukan dalam dataset.*
 
   Answer : Jawabannya akan berkaitan dengan jawaban dari pertanyaan kedua, melalui hasil heatmap. Mesin dengan kualitas baik pasti memiliki nilai Target 0 sedangkan kualitas buruk perlu dilakukan pemeliharaan memiliki nilai Target 1. Korelasi dari heatmap menghubungkan antara variabel numerik dengan fitur Target yang mana kualitas baik diidentifikasi berdasarkan variabel Torque, Tool wear, Air temperature dan Process temperature. Melalui persebaran datanya Target dengan nilai 1 memenuhi 9263 data hampir 97% dari dataset memiliki nilai mesin kualitas baik atau No Failure. Mesin dengan kualitas baik melalui hasil describe memiliki nilai rata-rata Torque 39.98Nm, Tool wear 107.95min, Air temperature 300K dan Process temperature 310K. Mesin dengan kualitas buruk memiliki nilai yang tinggi melebihi rata-rata atau dengan nilai maksimum Torque 76Nm, Tool wear 253min, Air temperature 304K dan Process temperature 313K.
