@@ -246,6 +246,7 @@ Melalui hasil yang sudah dibuat dari mulai pembuatan model hingga membantuk metr
   Goals : Faktor yang paling berpengaruh terhadap prediksi perawatan mesin dapat ditentukan melalui korelasi antar faktor terhadap kelas kategori kualitas mesin.
 
   ![heatmap](https://raw.githubusercontent.com/Abito21/Project_Predictive_Analytics_Machine_Maintenace/main/pictures/heatmap.png)
+
   *Figure 1 : Heatmap Korelasi Fitur Numerik*
 
   Answer : Melalui heatmap pada bagian EDA - Multivariate Anlysis Numerical Features terdapat gambaran korelasi target terhadap semua variabel numeric lainnya. Heatmap yang memiliki nilai kearah positif mempunyai korelasi yang kuat sebaliknya nilai negatif mempunyai korelasi yang lemah. Sehingga melalui heatmap tersebut bisa disimpulkan bahwa korelasi yang kuat terhadap fitur Target yaitu Torque (0.22), Tool wear (0.12), Air temperature (0.09) dan Process temperature (0.04). Rotational speed (-0.17) menandakan bahwa variabel ini memiliki korelasi lemah dengan target sedangkan untuk UID tidak memiliki korelasi apapun karena merupakan nilai unik per record mesin.
